@@ -25,8 +25,6 @@ public abstract class BaseTest {
     protected Login login;
     protected Registration registration;
     protected Recovery recovery;
-    protected Profile profile;
-
     protected UserStep userStep;
     protected UserData user;
     protected String accessToken;
@@ -60,7 +58,6 @@ public abstract class BaseTest {
         login    = new Login(driver);
         registration = new Registration(driver);
         recovery = new Recovery(driver);
-        profile  = new Profile(driver);
         userStep   = new UserStep();
 
 
